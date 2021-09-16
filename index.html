@@ -4,10 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container header-container">
+        <div class="logo">
+            <a href="index.html">
+                <svg  width="150" height="40">
+                    <use href="./img/sprite.svg#icon-logo"></use>
+                </svg>
+            </a>
+        </div>
+        <nav class="nav">
+          <ul class="nav__list">
+              <li class="nav__list-item">
+                <a href="#" class="nav-bar__link">Автострахование</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#" class="nav-bar__link">Ипотека</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#" class="nav-bar__link">Недвижимость</a>
+              </li>
+              <li class="nav__list-item">
+                <a href="#" class="nav-bar__link">О компании</a>
+              </li>
+          </ul>
+        </nav>
+        <div class="contacts">
+            <a href="tel:+88007073089" class="contacts__link">8 (800) 707-30-89</a>
+            <span class="contacts__text">бесплатно по РФ</span>
+        </div>
+    <button type="button" class="header__btn">Заказать звонок</button>
+    </div>
+    </header>
+
+    <section class="insurances">
+        <img  class="insurance__img"
+        src="./img/insurance.png" alt=""
+        width="570" height="573">
+        <ul class="insurances__list">
+            <li class="insurances__list-item">ОСАГО</li>
+            <li class="insurances__list-item">КАСКО</li>
+            <li class="insurances__list-item">Зеленая Карта</li>
+            <li class="insurances__list-item">Ипотечное Страхование</li>
+            <li class="insurances__list-item">Страхование Имущества</li>
+        </ul>
+    </section>
+
+
+
     
 </body>
 </html>
