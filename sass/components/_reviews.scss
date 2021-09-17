@@ -1,0 +1,25 @@
+.reviews-container {
+    display: flex;
+    justify-content: space-between;
+}
+.reviews__title {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 1.2;
+    color: $text-color;
+
+    span {
+        color: $accent-color;
+    }
+}
+
+.reviews__list {
+    display: flex;
+    
+}
+.reviews__list-item {
+    margin-right: 41px; 
+    &:last-child {
+        margin-right: 0;
+    }
+}

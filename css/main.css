@@ -159,7 +159,7 @@ body {
 
 img {
   display: block;
-  width: 100%;
+  max-width: 100%;
   height: auto;
   -o-object-fit: cover;
      object-fit: cover;
@@ -315,5 +315,43 @@ button {
 .insurances__list-item:last-child {
   margin: 0;
   width: 100%;
+}
+
+.reviews-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.reviews__title {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #2E2F53;
+}
+
+.reviews__title span {
+  color: #6FCF97;
+}
+
+.reviews-container h2 {
+  display: block;
+}
+
+.reviews__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.reviews__list-item {
+  margin-right: 41px;
+}
+
+.reviews__list-item:last-child {
+  margin-right: 0;
 }
 /*# sourceMappingURL=main.css.map */
