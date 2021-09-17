@@ -324,6 +324,7 @@ button {
   background-image: url(../img/reviews-bg.png);
   background-repeat: no-repeat;
   background-position: 25% 74%;
+  margin-bottom: 170px;
 }
 
 .reviews-container {
@@ -390,5 +391,48 @@ button {
   font-size: 30px;
   line-height: 37px;
   color: #fff;
+}
+
+.why-us {
+  background-image: url(../../img/why-us-bg.png);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.why-us-container {
+  padding-top: 170px;
+}
+
+.why-us__title {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+
+.why-us__list {
+  display: inline-block;
+}
+
+.why-us__list li {
+  font-family: Source Sans Pro;
+  font-size: 25px;
+  line-height: 150%;
+  color: #F8F8F8;
+}
+
+.why-us__list span {
+  font-family: Montserrat;
+  color: #52B2F5;
+  background-image: url(../../img/why-1.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-align: center;
+  padding: 33px 75px;
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 122px;
 }
 /*# sourceMappingURL=main.css.map */
