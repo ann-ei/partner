@@ -1,0 +1,25 @@
+.guarantees {
+  background-image: url(../../img/guarantees-bg.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-position: 24% 24%;
+}
+.guarantees-container {
+  position: relative;
+  padding: 58px 0 29px 0;
+}
+.guarantees__img {
+  position: absolute;
+  right: -94px;
+  top: -332px;
+}
+.guarantees__text-wrap {
+  max-width: 686px;
+}
+.guarantees__text {
+  margin-bottom: 20px;
+
+  &:last-child {
+    margin-bottom: 30px;
+  }
+}

@@ -161,8 +161,6 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 a {
@@ -396,7 +394,8 @@ button {
 .why-us {
   background-image: url(../../img/why-us-bg.png);
   background-repeat: no-repeat;
-  background-position: top;
+  background-position: top center;
+  padding-bottom: 77px;
 }
 
 .why-us-container {
@@ -410,29 +409,95 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
+  margin-bottom: 63px;
 }
 
 .why-us__list {
   display: inline-block;
 }
 
-.why-us__list li {
+.why-us__list-item {
   font-family: Source Sans Pro;
   font-size: 25px;
   line-height: 150%;
-  color: #F8F8F8;
+  color: #f8f8f8;
 }
 
-.why-us__list span {
+.num {
   font-family: Montserrat;
-  color: #52B2F5;
-  background-image: url(../../img/why-1.png);
+  color: #52b2f5;
   background-repeat: no-repeat;
   display: inline-block;
   text-align: center;
-  padding: 33px 75px;
   font-weight: 900;
   font-size: 100px;
   line-height: 122px;
+  vertical-align: middle;
+}
+
+.num-1 {
+  background-image: url(../../img/why-1.png);
+  padding: 20px 94px 43px 83px;
+  margin-right: 64px;
+}
+
+.num-2 {
+  background-image: url(../../img/why-2.png);
+  padding: 41px 99px 40px 73px;
+  margin-bottom: 17px;
+  margin-right: 49px;
+}
+
+.num-3 {
+  background-image: url(../../img/why-3.png);
+  padding: 33px 75px 49px 76px;
+  margin-right: 78px;
+}
+
+.num-4 {
+  background-image: url(../../img/why-4.png);
+  padding: 46px 107px 43px 71px;
+  margin-right: 44px;
+}
+
+.num-5 {
+  background-image: url(../../img/why-5.png);
+  padding: 48px 92px 34px 68px;
+  margin-right: 73px;
+}
+
+.why-us__list-item p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.guarantees {
+  background-image: url(../../img/guarantees-bg.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-position: 24% 24%;
+}
+
+.guarantees-container {
+  position: relative;
+  padding: 58px 0 29px 0;
+}
+
+.guarantees__img {
+  position: absolute;
+  right: -94px;
+  top: -332px;
+}
+
+.guarantees__text-wrap {
+  max-width: 686px;
+}
+
+.guarantees__text {
+  margin-bottom: 20px;
+}
+
+.guarantees__text:last-child {
+  margin-bottom: 30px;
 }
 /*# sourceMappingURL=main.css.map */
