@@ -1,6 +1,13 @@
+.reviews {
+    background-image: url(../../img/reviews-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
 .reviews-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    
 }
 .reviews__title {
     font-weight: 900;
@@ -15,6 +22,7 @@
 
 .reviews__list {
     display: flex;
+    margin-bottom: 45px;
     
 }
 .reviews__list-item {
@@ -22,4 +30,7 @@
     &:last-child {
         margin-right: 0;
     }
+}
+.reviews-rait {
+    margin-bottom: 30px;
 }

@@ -53,9 +53,11 @@
     font-weight: 800;
     font-size: 14px;
     line-height: 100%;
-    transition: 250ms background-color linear;
+    transition: 250ms all linear;
+    
 
     &:hover {
         background-color: #68c28d;
+        transform: scale(1.1);
     }
 }
