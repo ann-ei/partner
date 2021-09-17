@@ -321,9 +321,9 @@ button {
 }
 
 .reviews {
-  background-image: url(../../img/reviews-bg.png);
+  background-image: url(../img/reviews-bg.png);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: 25% 74%;
 }
 
 .reviews-container {
@@ -349,6 +349,18 @@ button {
   color: #6FCF97;
 }
 
+.reviews__subtitle {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #2E2F53;
+  margin-bottom: 40px;
+}
+
+.reviews__subtitle span {
+  color: #6FCF97;
+}
+
 .reviews__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -366,5 +378,17 @@ button {
 
 .reviews-rait {
   margin-bottom: 30px;
+}
+
+.reviews-btn {
+  border: none;
+  background-color: transparent;
+  background-image: url(../../img/btn-bg.png);
+  background-repeat: no-repeat;
+  padding: 43px 83px;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 37px;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
