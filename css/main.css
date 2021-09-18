@@ -362,7 +362,7 @@ button {
 }
 
 .accordion__wrap-item {
-  margin-bottom: 10px;
+  margin-bottom: 43px;
 }
 
 .active,
@@ -372,11 +372,17 @@ button {
 
 .panel {
   padding: 0 18px;
-  background-color: transparent;
+  background-color: #fff;
   max-height: 0;
   overflow: hidden;
   -webkit-transition: max-height 0.2s ease-out;
   transition: max-height 0.2s ease-out;
+  margin-top: -28px;
+  border-radius: 0 0 20px 20px;
+}
+
+.panel p {
+  padding: 40px 0 30px 0;
 }
 
 .accordion:after {
