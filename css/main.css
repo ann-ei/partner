@@ -543,32 +543,32 @@ button {
 }
 
 .num-1 {
-  background-image: url(../../img/why-1.png);
+  background-image: url(../img/why-1.png);
   padding: 20px 94px 43px 83px;
   margin-right: 64px;
 }
 
 .num-2 {
-  background-image: url(../../img/why-2.png);
+  background-image: url(../img/why-2.png);
   padding: 41px 99px 40px 73px;
   margin-bottom: 17px;
   margin-right: 49px;
 }
 
 .num-3 {
-  background-image: url(../../img/why-3.png);
+  background-image: url(../img/why-3.png);
   padding: 33px 75px 49px 76px;
   margin-right: 78px;
 }
 
 .num-4 {
-  background-image: url(../../img/why-4.png);
+  background-image: url(../img/why-4.png);
   padding: 46px 107px 43px 71px;
   margin-right: 44px;
 }
 
 .num-5 {
-  background-image: url(../../img/why-5.png);
+  background-image: url(../img/why-5.png);
   padding: 48px 92px 34px 68px;
   margin-right: 73px;
 }
@@ -593,9 +593,18 @@ button {
 }
 
 .guarantees__img {
+  width: 658px;
+  height: 663px;
   position: absolute;
   right: -94px;
   top: -391px;
+}
+
+@media screen and (max-width: 1479px) {
+  .guarantees__img {
+    width: 574px;
+    right: -2px;
+  }
 }
 
 .guarantees__text-wrap {

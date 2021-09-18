@@ -11,9 +11,15 @@
   padding: 58px 0 29px 0;
 }
 .guarantees__img {
+  width: 658px;
+  height: 663px;
   position: absolute;
   right: -94px;
   top: -391px;
+  @media screen and (max-width: 1479px) {
+    width: 574px;
+    right: -2px;
+  }
 }
 .guarantees__text-wrap {
   max-width: 686px;
