@@ -318,6 +318,107 @@ button {
   width: 100%;
 }
 
+.questions {
+  margin-bottom: 120px;
+}
+
+.questions-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-bottom: 88px;
+}
+
+.questions__title {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 55px;
+  color: #2E2F53;
+  letter-spacing: 0.03em;
+  display: inline-block;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 27px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  text-align: left;
+  outline: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 12px;
+  color: #333333;
+  -webkit-filter: drop-shadow(0px 15px 25px rgba(0, 0, 0, 0.05));
+          filter: drop-shadow(0px 15px 25px rgba(0, 0, 0, 0.05));
+}
+
+.accordion__wrap-item {
+  margin-bottom: 10px;
+}
+
+.active,
+.accordion:hover {
+  background-color: #e9faee;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: transparent;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.2s ease-out;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion:after {
+  content: '';
+  font-size: 0;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/question-plus.svg);
+}
+
+.active:after {
+  content: '';
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/question-plus.svg);
+}
+
+.questions__btn {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 20px;
+  color: #fff;
+  background-color: #2E2F53;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 35px;
+  -webkit-transition: 250ms all linear;
+  transition: 250ms all linear;
+}
+
+.questions__btn:hover {
+  background-color: #242542;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .reviews {
   background-image: url(../img/reviews-bg.png);
   background-repeat: no-repeat;
@@ -392,7 +493,7 @@ button {
 }
 
 .why-us {
-  background-image: url(../../img/why-us-bg.png);
+  background-image: url(../img/why-us-bg.png);
   background-repeat: no-repeat;
   background-position: top center;
   padding-bottom: 77px;
@@ -472,7 +573,7 @@ button {
 }
 
 .guarantees {
-  background-image: url(../../img/guarantees-bg.png);
+  background-image: url(../img/guarantees-bg.png);
   background-repeat: no-repeat;
   background-position: top center;
   background-position: 24% 24%;
@@ -630,7 +731,7 @@ ul.slick-dots {
   margin: 30px 0 0 0;
   text-align: center;
   display: block;
-  margin: 128px auto 0 auto;
+  margin: 128px auto;
 }
 
 ul.slick-dots li {
@@ -654,5 +755,89 @@ ul li.slick-active button {
   background-color: #6FCF97;
   width: 23px;
   height: 23px;
+}
+
+.footer {
+  background-color: #192147;
+  padding: 40px;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.footer__data {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #f3f3f3;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer__data:last-child {
+  margin-bottom: 0;
+}
+
+.footer__data span {
+  font-weight: 400;
+}
+
+.footer__address {
+  color: #fff;
+  font-style: normal;
+}
+
+.footer__inform {
+  margin-right: 200px;
+  display: inline-block;
+}
+
+.footer__nav {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 126px;
+}
+
+.footer__nav-item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f3f3f3;
+  margin-bottom: 30px;
+}
+
+.footer__nav-list {
+  display: inline-block;
+  margin-right: 45px;
+}
+
+.footer__nav-list:last-child {
+  margin-right: 0;
+}
+
+.footer__contacts {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer__contacts-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footer__contacts-text {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  opacity: 0.5;
+  display: block;
+  margin-bottom: 70px;
 }
 /*# sourceMappingURL=main.css.map */

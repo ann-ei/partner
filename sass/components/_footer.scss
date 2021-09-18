@@ -1,0 +1,77 @@
+.footer {
+  background-color: $title-color;
+  padding: 40px;
+}
+.footer-logo {
+  display: block;
+  margin-bottom: 40px;
+}
+.footer__data {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #f3f3f3;
+  display: block;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  span {
+    font-weight: 400;
+  }
+}
+.footer__address {
+  color: $light-color;
+  font-style: normal;
+}
+.footer__inform {
+  margin-right: 200px;
+  display: inline-block;
+}
+.footer__nav {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 126px;
+}
+.footer__nav-item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #f3f3f3;
+  margin-bottom: 30px;
+}
+.footer__nav-list {
+  display: inline-block;
+  margin-right: 45px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.footer__contacts {
+  display: inline-block;
+  vertical-align: top;
+}
+.footer__contacts-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+
+  color: #ffffff;
+}
+.footer__contacts-text {
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #ffffff;
+  opacity: 0.5;
+  display: block;
+  margin-bottom: 70px;
+}
