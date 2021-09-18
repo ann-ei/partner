@@ -3,7 +3,8 @@
   background-repeat: no-repeat;
   background-position: top center;
   background-position: 24% 24%;
-  margin-bottom: 170px;
+  padding-bottom: 190px;
+  padding-top: 73px;
 }
 .guarantees-container {
   position: relative;
@@ -12,7 +13,7 @@
 .guarantees__img {
   position: absolute;
   right: -94px;
-  top: -332px;
+  top: -391px;
 }
 .guarantees__text-wrap {
   max-width: 686px;
@@ -23,4 +24,12 @@
   &:last-child {
     margin-bottom: 30px;
   }
+}
+.guarantees__btn {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 58px;
 }

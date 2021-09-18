@@ -88,3 +88,31 @@
     margin-right: 0;
   }
 }
+//slider
+ul.slick-dots {
+  margin: 30px 0 0 0;
+  text-align: center;
+  display: block;
+  margin: 128px auto 0 auto;
+}
+ul.slick-dots li {
+  display: inline-block;
+  margin: 0 9px;
+}
+ul.slick-dots li button {
+  border: none;
+  background-color: #dcdcdc;
+  outline: none;
+  cursor: pointer;
+
+  font-size: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 15px;
+  height: 15px;
+}
+ul li.slick-active button {
+  background-color: $accent-color;
+  width: 23px;
+  height: 23px;
+}
