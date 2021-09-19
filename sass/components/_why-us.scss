@@ -7,6 +7,9 @@
 }
 .why-us-container {
   padding-top: 170px;
+  @media screen and (max-width: 767px) {
+    padding-top: 0;
+  }
 }
 .why-us__title {
   font-weight: 900;
@@ -18,6 +21,27 @@
   margin-bottom: 63px;
   @media screen and (max-width: 1279px) {
     font-size: 37px;
+  }
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+.why-us__title--mobile {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.2;
+  color: $text-color;
+  display: none;
+
+  span {
+    color: $accent-color;
+  }
+  @media screen and (max-width: 1279px) {
+    margin-bottom: 45px;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 30px;
+    display: block;
   }
 }
 .why-us__list {
@@ -31,6 +55,10 @@
   color: #f8f8f8;
   @media screen and (max-width: 1279px) {
     font-size: 20px;
+    margin-bottom: 34px;
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }
 .num {
@@ -44,34 +72,67 @@
   font-size: 100px;
   line-height: 122px;
   vertical-align: middle;
+  @media screen and (max-width: 767px) {
+    font-size: 70px;
+  }
 }
 .num-1 {
   background-image: url(../img/why-1.png);
   padding: 20px 94px 43px 83px;
   margin-right: 64px;
+  @media screen and (max-width: 767px) {
+    margin-right: 19px;
+    background-image: url(../img/why-1--mobile.png);
+    padding: 0 64px 28px 58px;
+  }
 }
 .num-2 {
   background-image: url(../img/why-2.png);
   padding: 41px 99px 40px 73px;
   margin-bottom: 17px;
-  margin-right: 49px;
+  margin-right: 50px;
+  @media screen and (max-width: 767px) {
+    margin-right: 10px;
+    background-image: url(../img/why-2--mobile.png);
+    padding: 8px 67px 27px 51px;
+  }
 }
 .num-3 {
   background-image: url(../img/why-3.png);
   padding: 33px 75px 49px 76px;
   margin-right: 78px;
+  @media screen and (max-width: 767px) {
+    margin-right: 26px;
+    background-image: url(../img/why-3--mobile.png);
+    padding: 5px 50px 34px 52px;
+  }
 }
 .num-4 {
   background-image: url(../img/why-4.png);
   padding: 46px 107px 43px 71px;
   margin-right: 44px;
+  @media screen and (max-width: 767px) {
+    margin-right: 0;
+    background-image: url(../img/why-4--mobile.png);
+    padding: 11px 73px 30px 48px;
+  }
 }
 .num-5 {
   background-image: url(../img/why-5.png);
   padding: 48px 92px 34px 68px;
   margin-right: 73px;
+  @media screen and (max-width: 767px) {
+    margin-right: 19px;
+    background-image: url(../img/why-5--mobile.png);
+    padding: 15px 54px 35px 54px;
+  }
 }
 .why-us__list-item p {
   display: inline-block;
   vertical-align: middle;
+  @media screen and (max-width: 767px) {
+    font-size: 15px;
+    vertical-align: middle;
+    width: 150px;
+  }
 }

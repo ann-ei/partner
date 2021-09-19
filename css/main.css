@@ -193,6 +193,22 @@ button {
   background-color: #fff;
 }
 
+@media screen and (max-width: 767px) {
+  .logo {
+    display: none;
+  }
+}
+
+.menu-btn {
+  display: none;
+}
+
+@media screen and (max-width: 1279px) {
+  .menu-btn {
+    display: block;
+  }
+}
+
 .header-container {
   padding-top: 25px;
   padding-bottom: 25px;
@@ -237,6 +253,12 @@ button {
 
 .nav-bar__link:hover {
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+@media screen and (max-width: 767px) {
+  .contacts {
+    display: none;
+  }
 }
 
 .contacts__link {
@@ -327,6 +349,19 @@ button {
 .insurances__list-item:last-child {
   margin: 0;
   width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .insurances__list-item {
+    padding: 78px 9px;
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .insurances__list-item {
+    width: 100%;
+  }
 }
 
 .questions {
@@ -493,6 +528,12 @@ button {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .reviews__title {
+    font-size: 30px;
+  }
+}
+
 .reviews__subtitle {
   font-weight: 900;
   font-size: 50px;
@@ -505,11 +546,23 @@ button {
   color: #6FCF97;
 }
 
+@media screen and (max-width: 767px) {
+  .reviews__subtitle {
+    font-size: 30px;
+  }
+}
+
 .reviews__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 45px;
+}
+
+@media screen and (max-width: 767px) {
+  .reviews__list {
+    padding-right: 25px;
+  }
 }
 
 .reviews__list-item {
@@ -522,6 +575,13 @@ button {
 
 .reviews-rait {
   margin-bottom: 30px;
+  width: 440px;
+}
+
+@media screen and (max-width: 767px) {
+  .reviews-rait {
+    width: 270px;
+  }
 }
 
 .reviews-btn {
@@ -534,6 +594,15 @@ button {
   font-size: 30px;
   line-height: 37px;
   color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+  .reviews-btn {
+    font-size: 20px;
+    background-image: url(../img/btn-bg--mobile.png);
+    padding: 10px 84px;
+    padding-right: 71px;
+  }
 }
 
 @media screen and (max-width: 1279px) {
@@ -553,6 +622,12 @@ button {
   padding-top: 170px;
 }
 
+@media screen and (max-width: 767px) {
+  .why-us-container {
+    padding-top: 0;
+  }
+}
+
 .why-us__title {
   font-weight: 900;
   font-size: 50px;
@@ -566,6 +641,37 @@ button {
 @media screen and (max-width: 1279px) {
   .why-us__title {
     font-size: 37px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .why-us__title {
+    display: none;
+  }
+}
+
+.why-us__title--mobile {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #2E2F53;
+  display: none;
+}
+
+.why-us__title--mobile span {
+  color: #6FCF97;
+}
+
+@media screen and (max-width: 1279px) {
+  .why-us__title--mobile {
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .why-us__title--mobile {
+    font-size: 30px;
+    display: block;
   }
 }
 
@@ -583,6 +689,10 @@ button {
 @media screen and (max-width: 1279px) {
   .why-us__list-item {
     font-size: 20px;
+    margin-bottom: 34px;
+  }
+  .why-us__list-item:last-child {
+    margin-bottom: 0;
   }
 }
 
@@ -598,17 +708,39 @@ button {
   vertical-align: middle;
 }
 
+@media screen and (max-width: 767px) {
+  .num {
+    font-size: 70px;
+  }
+}
+
 .num-1 {
   background-image: url(../img/why-1.png);
   padding: 20px 94px 43px 83px;
   margin-right: 64px;
 }
 
+@media screen and (max-width: 767px) {
+  .num-1 {
+    margin-right: 19px;
+    background-image: url(../img/why-1--mobile.png);
+    padding: 0 64px 28px 58px;
+  }
+}
+
 .num-2 {
   background-image: url(../img/why-2.png);
   padding: 41px 99px 40px 73px;
   margin-bottom: 17px;
-  margin-right: 49px;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .num-2 {
+    margin-right: 10px;
+    background-image: url(../img/why-2--mobile.png);
+    padding: 8px 67px 27px 51px;
+  }
 }
 
 .num-3 {
@@ -617,10 +749,26 @@ button {
   margin-right: 78px;
 }
 
+@media screen and (max-width: 767px) {
+  .num-3 {
+    margin-right: 26px;
+    background-image: url(../img/why-3--mobile.png);
+    padding: 5px 50px 34px 52px;
+  }
+}
+
 .num-4 {
   background-image: url(../img/why-4.png);
   padding: 46px 107px 43px 71px;
   margin-right: 44px;
+}
+
+@media screen and (max-width: 767px) {
+  .num-4 {
+    margin-right: 0;
+    background-image: url(../img/why-4--mobile.png);
+    padding: 11px 73px 30px 48px;
+  }
 }
 
 .num-5 {
@@ -629,9 +777,25 @@ button {
   margin-right: 73px;
 }
 
+@media screen and (max-width: 767px) {
+  .num-5 {
+    margin-right: 19px;
+    background-image: url(../img/why-5--mobile.png);
+    padding: 15px 54px 35px 54px;
+  }
+}
+
 .why-us__list-item p {
   display: inline-block;
   vertical-align: middle;
+}
+
+@media screen and (max-width: 767px) {
+  .why-us__list-item p {
+    font-size: 15px;
+    vertical-align: middle;
+    width: 150px;
+  }
 }
 
 .guarantees {
@@ -887,6 +1051,12 @@ ul li.slick-active button {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .footer__inform {
+    width: 100%;
+  }
+}
+
 .footer__nav {
   display: inline-block;
   vertical-align: top;
@@ -900,6 +1070,13 @@ ul li.slick-active button {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__nav {
+    display: block;
+    width: 100%;
   }
 }
 

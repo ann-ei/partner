@@ -35,6 +35,9 @@
     width: 45%;
     margin-bottom: 30px;
   }
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
 }
 .footer__nav {
   display: inline-block;
@@ -44,6 +47,10 @@
     margin-right: 0;
     width: 45%;
     display: inline-flex;
+  }
+  @media screen and (max-width: 767px) {
+    display: block;
+    width: 100%;
   }
 }
 .footer__nav-item {

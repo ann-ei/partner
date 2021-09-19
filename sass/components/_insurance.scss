@@ -39,4 +39,11 @@
     margin: 0;
     width: 100%;
   }
+  @media screen and (max-width: 1279px) {
+    padding: 78px 9px;
+    font-size: 21px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
 }
