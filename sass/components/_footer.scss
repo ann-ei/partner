@@ -30,11 +30,21 @@
 .footer__inform {
   margin-right: 200px;
   display: inline-block;
+  @media screen and (max-width: 1279px) {
+    margin-right: 0;
+    width: 45%;
+    margin-bottom: 30px;
+  }
 }
 .footer__nav {
   display: inline-block;
   vertical-align: top;
   margin-right: 126px;
+  @media screen and (max-width: 1279px) {
+    margin-right: 0;
+    width: 45%;
+    display: inline-flex;
+  }
 }
 .footer__nav-item {
   font-weight: 700;
@@ -74,4 +84,8 @@
   opacity: 0.5;
   display: block;
   margin-bottom: 70px;
+  @media screen and (max-width: 1279px) {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
 }

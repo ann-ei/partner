@@ -16,6 +16,9 @@
   letter-spacing: 0.03em;
   color: $light-color;
   margin-bottom: 63px;
+  @media screen and (max-width: 1279px) {
+    font-size: 37px;
+  }
 }
 .why-us__list {
   display: inline-block;
@@ -26,6 +29,9 @@
   line-height: 150%;
 
   color: #f8f8f8;
+  @media screen and (max-width: 1279px) {
+    font-size: 20px;
+  }
 }
 .num {
   font-family: Montserrat;

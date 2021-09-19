@@ -5,6 +5,9 @@
   display: flex;
   align-items: baseline;
   margin-bottom: 88px;
+  @media screen and (max-width: 1279px) {
+    display: block;
+  }
 }
 .questions__title {
   font-weight: 900;
@@ -13,6 +16,10 @@
   color: $text-color;
   letter-spacing: 0.03em;
   display: inline-block;
+  @media screen and (max-width: 1279px) {
+    margin-bottom: 38px;
+    font-size: 37px;
+  }
 }
 //accordion
 

@@ -207,6 +207,12 @@ button {
           justify-content: space-between;
 }
 
+@media screen and (max-width: 1279px) {
+  .nav {
+    display: none;
+  }
+}
+
 .nav__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -251,7 +257,7 @@ button {
   font-family: Source Sans Pro;
   font-size: 16px;
   line-height: 20px;
-  color: #BDBDBD;
+  color: #bdbdbd;
 }
 
 .header__btn {
@@ -274,7 +280,6 @@ button {
 
 .insurances {
   margin-top: 50px;
-  margin-bottom: 120px;
 }
 
 .insurances-container {
@@ -287,6 +292,12 @@ button {
   width: 570px;
   height: 573px;
   margin-right: 89px;
+}
+
+@media screen and (max-width: 1279px) {
+  .insurance__img {
+    display: none;
+  }
 }
 
 /*.insurances__list {
@@ -332,6 +343,12 @@ button {
   margin-bottom: 88px;
 }
 
+@media screen and (max-width: 1279px) {
+  .questions-container {
+    display: block;
+  }
+}
+
 .questions__title {
   font-weight: 900;
   font-size: 50px;
@@ -339,6 +356,13 @@ button {
   color: #2E2F53;
   letter-spacing: 0.03em;
   display: inline-block;
+}
+
+@media screen and (max-width: 1279px) {
+  .questions__title {
+    margin-bottom: 38px;
+    font-size: 37px;
+  }
 }
 
 .accordion {
@@ -430,6 +454,14 @@ button {
   background-repeat: no-repeat;
   background-position: 25% 74%;
   margin-bottom: 170px;
+  padding-top: 177px;
+}
+
+@media screen and (max-width: 1279px) {
+  .reviews {
+    padding-bottom: 120px;
+    margin-bottom: 0;
+  }
 }
 
 .reviews-container {
@@ -453,6 +485,12 @@ button {
 
 .reviews__title span {
   color: #6FCF97;
+}
+
+@media screen and (max-width: 1279px) {
+  .reviews__title {
+    margin-bottom: 45px;
+  }
 }
 
 .reviews__subtitle {
@@ -498,6 +536,12 @@ button {
   color: #fff;
 }
 
+@media screen and (max-width: 1279px) {
+  .reviews__img {
+    display: none;
+  }
+}
+
 .why-us {
   background-image: url(../img/why-us-bg.png);
   background-repeat: no-repeat;
@@ -519,6 +563,12 @@ button {
   margin-bottom: 63px;
 }
 
+@media screen and (max-width: 1279px) {
+  .why-us__title {
+    font-size: 37px;
+  }
+}
+
 .why-us__list {
   display: inline-block;
 }
@@ -528,6 +578,12 @@ button {
   font-size: 25px;
   line-height: 150%;
   color: #f8f8f8;
+}
+
+@media screen and (max-width: 1279px) {
+  .why-us__list-item {
+    font-size: 20px;
+  }
 }
 
 .num {
@@ -589,7 +645,7 @@ button {
 
 .guarantees-container {
   position: relative;
-  padding: 58px 0 29px 0;
+  padding: 58px 20px 29px 20px;
 }
 
 .guarantees__img {
@@ -604,6 +660,14 @@ button {
   .guarantees__img {
     width: 574px;
     right: -2px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .guarantees__img {
+    width: 265px;
+    top: -231px;
+    right: 16px;
   }
 }
 
@@ -635,6 +699,12 @@ button {
   line-height: 1.1;
   text-align: center;
   margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1279px) {
+  .workers__title {
+    font-size: 37px;
+  }
 }
 
 .workers__content {
@@ -809,10 +879,28 @@ ul li.slick-active button {
   display: inline-block;
 }
 
+@media screen and (max-width: 1279px) {
+  .footer__inform {
+    margin-right: 0;
+    width: 45%;
+    margin-bottom: 30px;
+  }
+}
+
 .footer__nav {
   display: inline-block;
   vertical-align: top;
   margin-right: 126px;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__nav {
+    margin-right: 0;
+    width: 45%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
 }
 
 .footer__nav-item {
@@ -854,5 +942,12 @@ ul li.slick-active button {
   opacity: 0.5;
   display: block;
   margin-bottom: 70px;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__contacts-text {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

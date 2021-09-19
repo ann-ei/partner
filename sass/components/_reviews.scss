@@ -1,58 +1,70 @@
 .reviews {
-    background-image: url(../img/reviews-bg.png);
-    background-repeat: no-repeat;
-    background-position: 25% 74%;
-    margin-bottom: 170px;
+  background-image: url(../img/reviews-bg.png);
+  background-repeat: no-repeat;
+  background-position: 25% 74%;
+  margin-bottom: 170px;
+  padding-top: 177px;
+
+  @media screen and (max-width: 1279px) {
+    padding-bottom: 120px;
+    margin-bottom: 0;
+  }
 }
 .reviews-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .reviews__title {
-    font-weight: 900;
-    font-size: 50px;
-    line-height: 1.2;
-    color: $text-color;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.2;
+  color: $text-color;
 
-    span {
-        color: $accent-color;
-    }
+  span {
+    color: $accent-color;
+  }
+  @media screen and (max-width: 1279px) {
+    margin-bottom: 45px;
+  }
 }
 .reviews__subtitle {
-    font-weight: 900;
-    font-size: 50px;
-    line-height: 1.2;
-    color: $text-color;
-    margin-bottom: 40px;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 1.2;
+  color: $text-color;
+  margin-bottom: 40px;
 
-    span {
-        color: $accent-color;
-    }
+  span {
+    color: $accent-color;
+  }
 }
 .reviews__list {
-    display: flex;
-    margin-bottom: 45px;
-    
+  display: flex;
+  margin-bottom: 45px;
 }
 .reviews__list-item {
-    margin-right: 41px; 
-    &:last-child {
-        margin-right: 0;
-    }
+  margin-right: 41px;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 .reviews-rait {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .reviews-btn {
-    border: none;
-    background-color: transparent;
-    background-image: url(../img/btn-bg.png);
-    background-repeat: no-repeat;
-    padding: 43px 83px;
-    font-weight: 900;
-font-size: 30px;
-line-height: 37px;
-color: $light-color;
+  border: none;
+  background-color: transparent;
+  background-image: url(../img/btn-bg.png);
+  background-repeat: no-repeat;
+  padding: 43px 83px;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 37px;
+  color: $light-color;
+}
+.reviews__img {
+  @media screen and (max-width: 1279px) {
+    display: none;
+  }
 }

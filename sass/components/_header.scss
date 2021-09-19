@@ -1,22 +1,27 @@
 .header {
-    background-color: $light-color;
+  background-color: $light-color;
 }
 .header-container {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav {
+  @media screen and (max-width: 1279px) {
+    display: none;
+  }
 }
 .nav__list {
-    display: flex;
+  display: flex;
 }
 .nav__list-item {
-    margin-right: 33px;
+  margin-right: 33px;
 
-    &:last-child {
-        margin-right: 0;
-    }
+  &:last-child {
+    margin-right: 0;
+  }
 }
 .nav-bar__link {
   font-weight: 500;
@@ -25,7 +30,8 @@
   transition: 250ms text-shadow linear;
 
   &:hover {
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+      0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
 .contacts__link {
@@ -36,28 +42,28 @@
   line-height: 20px;
   transition: 250ms text-shadow linear;
   &:hover {
-    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+      0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
 .contacts__text {
   font-family: Source Sans Pro;
   font-size: 16px;
   line-height: 20px;
-  color: #BDBDBD;
+  color: #bdbdbd;
 }
 .header__btn {
-    background-color: $accent-color;
-    border-radius: 16px;
-    padding: 18px 35px;
-    color: $light-color;
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 100%;
-    transition: 250ms all linear;
-    
+  background-color: $accent-color;
+  border-radius: 16px;
+  padding: 18px 35px;
+  color: $light-color;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 100%;
+  transition: 250ms all linear;
 
-    &:hover {
-        background-color: #68c28d;
-        transform: scale(1.1);
-    }
+  &:hover {
+    background-color: #68c28d;
+    transform: scale(1.1);
+  }
 }
