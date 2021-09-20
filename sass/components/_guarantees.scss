@@ -44,4 +44,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   margin-top: 58px;
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+  }
 }
