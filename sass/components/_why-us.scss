@@ -4,9 +4,13 @@
   background-position: top center;
 
   padding-bottom: 77px;
+  @media screen and (max-width: 374px) {
+    background-image: none;
+    background-color: #2e2f53;
+  }
 }
 .why-us-container {
-  padding-top: 170px;
+  padding-top: 84px;
   @media screen and (max-width: 767px) {
     padding-top: 0;
   }
