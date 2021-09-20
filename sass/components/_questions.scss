@@ -20,6 +20,11 @@
     margin-bottom: 38px;
     font-size: 37px;
   }
+  @media screen and (max-width: 767px) {
+    font-size: 20px;
+    text-align: center;
+    line-height: 24px;
+  }
 }
 //accordion
 
@@ -60,6 +65,11 @@
 
   p {
     padding: 40px 0 30px 0;
+    font-size: 14px;
+    color: #828282;
+    @media screen and (max-width: 767px) {
+      line-height: 24px;
+    }
   }
 }
 
